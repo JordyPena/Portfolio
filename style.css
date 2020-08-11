@@ -1,14 +1,15 @@
 /*--General--*/
 
-.link-style {
+.description {
   padding: 5px;
-
+  font-size: .8rem;
   list-style: none;
 }
 
 #button {
-  background: blue;
-  color: white;
+  background: rgb(255, 153, 0);
+  color: black;
+  margin: 10px 0;
   padding: 12px 24px;
   width: fit-content;
   border-radius: 8px;
@@ -24,6 +25,11 @@ img-main {
   margin: 20px;
   width: 300px;
   height: 300px;
+  
+}
+
+.image-style {
+  border-radius: 50%;
 }
 
 img {
@@ -52,11 +58,11 @@ a:link {
   color: blue;
   display: block;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
+  font-size: .8rem;
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: blue;
 }
 a:hover {
   color: #a9a9a9;
@@ -192,6 +198,21 @@ form textarea {
 
 /* Menu */
 
+.menu a {
+  color: white;
+}
+
+.menu a:visited {
+  color:white;
+}
+
+.menu a:hover {
+  color:grey;
+}
+
+.menu a:active {
+  color:lightblue;
+}
 header nav {
   display: flex;
   justify-content: center;
@@ -216,7 +237,6 @@ header nav ul li:last-child a {
 .project-image {
   width: 100%;
   height: 300px;
-  background-color: red;
   border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;
